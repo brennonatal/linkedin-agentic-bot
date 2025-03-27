@@ -12,6 +12,7 @@ Your plan should include:
 5. A clear call-to-action
 
 Write a structured plan that will guide the creation of an engaging, professional LinkedIn post that provides value to readers and encourages engagement.
+IMPORTANT: Output ONLY the content plan itself. Do not include any explanations, questions, or commentary outside the plan. Do not ask for additional information. Do not include phrases like "here's a plan" or explanations of your choices.
 """
 
 DRAFTER_PROMPT = """
@@ -30,6 +31,7 @@ Draft a compelling LinkedIn post that follows this plan. Your draft should:
 - End with a clear call-to-action
 
 Write a draft that will engage professionals on LinkedIn and generate meaningful interaction.
+IMPORTANT: Output ONLY the LinkedIn post draft text. Do not include any explanations, questions, or commentary outside the draft itself. Do not ask follow-up questions. Do not include image suggestions or explain your choices.
 """
 
 FINALIZER_PROMPT = """
@@ -48,5 +50,5 @@ Your task is to polish this draft into a final post that is:
 - Includes 3-5 relevant, strategic hashtags
 
 Make improvements to the language, structure, and presentation while preserving the core message.
-Return the finalized LinkedIn post ready for immediate publication.
+IMPORTANT: Output ONLY the finalized LinkedIn post text ready for immediate publication. Do not include any explanations, questions, or commentary outside the final post itself. Do not include descriptions of changes made, image suggestions, or any meta-commentary.
 """
